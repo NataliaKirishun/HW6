@@ -1,0 +1,76 @@
+html body header {
+  font-family: sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+html body #inputTable table {
+  text-align: left;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 14px;
+  border-collapse: collapse;
+  empty-cells: hide;
+}
+html body #inputTable table caption {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 28px;
+}
+html body #inputTable table td {
+  padding: 10px 20px;
+  text-align: center;
+  border-bottom: 1px solid #F4EEE8;
+  transition: all 0.5s linear;
+}
+html body #inputTable table td:first-child {
+  color: #3D3511;
+}
+html body #inputTable table td:nth-child(even) {
+  background: #F6D27E;
+}
+html body #inputTable table td:nth-child(even) {
+  background: #F6D27E;
+}
+html body #inputTable table td:nth-child(odd) {
+  background: #D1C7BF;
+}
+html body #inputTable table th {
+  padding: 10px 20px;
+  color: #3D3511;
+  border-bottom: 1px solid #F4EEE8;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+html body #inputTable table th:nth-child(even) {
+  background: #F6D27E;
+}
+html body #inputTable table th:nth-child(odd) {
+  background: #D1C7BF;
+}
+html body #inputTable table th:hover button {
+  font-weight: bold;
+  color: azure;
+  cursor: pointer;
+  outline: none;
+}
+html body #inputTable table th button {
+  border: 0;
+  background-color: transparent;
+  font-size: 20px;
+  float: right;
+}
+html body #inputTable table th button :focus {
+  outline: none;
+}
+html body #inputTable table tbody tr {
+  font-size: 16px;
+}
+html body #inputTable table tbody tr:hover td {
+  background: #D1C7BF;
+  font-weight: bold;
+}
